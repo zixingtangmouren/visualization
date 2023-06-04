@@ -1,4 +1,4 @@
-import { applyAttributes, createSVGElement, mount } from '../utils';
+import { applyAttributes, createSVGElement, mount } from './utils';
 import { type Context } from './context';
 
 type CreateElementAttributes<T extends Record<any, any>> = T &

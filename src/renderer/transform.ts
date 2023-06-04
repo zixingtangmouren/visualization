@@ -1,4 +1,4 @@
-import { applyTransform, createSVGElement, mount } from '../utils';
+import { applyTransform, createSVGElement, mount } from './utils';
 import { type Context } from './context';
 
 export function transform(

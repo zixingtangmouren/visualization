@@ -1,3 +1,2 @@
-export * from './renderer/context';
-export * from './renderer/shape';
-export * from './renderer/renderer';
+export * from './renderer';
+export * from './scale';

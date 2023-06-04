@@ -11,7 +11,9 @@ const config = {
     path: path.resolve(__dirname, './__test__/dist'),
     clean: true,
   },
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'index.html') }),
+  ],
   module: {
     rules: [{ loader: 'babel-loader', test: /\.(js|ts)$/ }],
   },

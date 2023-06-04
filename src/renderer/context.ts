@@ -1,4 +1,4 @@
-import { createSVGElement, mount } from '../utils';
+import { createSVGElement, mount } from './utils';
 
 export interface Context {
   node: SVGElement;
