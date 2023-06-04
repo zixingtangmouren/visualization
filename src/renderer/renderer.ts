@@ -16,7 +16,7 @@ import { restore, save, scale, translate, rotate } from './transform';
 export function createRenderer(width: number, height: number) {
   const context = createContext(width, height); // 创建上下文信息
   return {
-    line: (options: Record<string, string>) => line(context, options),
+    line: (options: Record<string, any>) => line(context, options),
     circle: (options: CircleAttributes) => circle(context, options),
     text: (options: TextAttributes) => text(context, options),
     rect: (options: RectAttributes) => rect(context, options),
