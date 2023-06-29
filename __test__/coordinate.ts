@@ -29,6 +29,7 @@ const coordinate = createCoordinate({
       s.type = () => 's';
       return s;
     },
+    // transpose(),
     cartesian(),
   ],
 });
