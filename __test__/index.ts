@@ -5,4 +5,4 @@
 // import './draw-link';
 // import './line';
 // import './area';
-import './rect';
+// import './rect';
