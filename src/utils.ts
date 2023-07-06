@@ -39,3 +39,7 @@ export function group(array: any[], key = (d) => d) {
 export function sub([x1, y1]: [number, number], [x0, y0]: [number, number]) {
   return [x1 - x0, y1 - y0];
 }
+
+export function equal([x1, y1]: [number, number], [x0, y0]: [number, number]) {
+  return x1 === x0 && y1 === y0;
+}
